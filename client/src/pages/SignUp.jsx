@@ -51,7 +51,7 @@ export default function SignUp() {
 
 
   return (
-    <div className="min-h-screen mt-20">
+    <div className="min-h-screen mt-40">
       <div className="flex p-3 max-w-3xl mx-auto flex-col md:flex-row md:items-center gap-10">
         {/* LEFT SIDE */}
         <div className="flex-1">
@@ -63,7 +63,7 @@ export default function SignUp() {
           className="px-2 py-1 bg-gradient-to-r from-indigo-500 via-purple-500 
             to-pink-500 rounded-lg text-white"
         >
-          Antonis blog App
+          Antonis Blog
         </span>
       </Link>
       <p className="text-sm mt-6">
@@ -102,6 +102,7 @@ export default function SignUp() {
                 onChange={handleChange}                            
               />
             </div>
+            
             <Button gradientDuoTone='purpleToPink' type="submit" disabled={loading}>
               {
                 loading ? (
@@ -113,6 +114,7 @@ export default function SignUp() {
                
               }
             </Button>
+            
             <OAuth/>
           </form>
           <div className="flex gap-3 text-sm mt-6">

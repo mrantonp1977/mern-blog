@@ -51,7 +51,7 @@ export default function SignIn() {
 
 
   return (
-    <div className="min-h-screen mt-20">
+    <div className="min-h-screen mt-40">
       <div className="flex p-3 max-w-3xl mx-auto flex-col md:flex-row md:items-center gap-10">
         {/* LEFT SIDE */}
         <div className="flex-1">
@@ -63,12 +63,12 @@ export default function SignIn() {
           className="px-2 py-1 bg-gradient-to-r from-indigo-500 via-purple-500 
             to-pink-500 rounded-lg text-white"
         >
-          Antonis blog App
+          Antonis blog
         </span>
       </Link>
       <p className="text-sm mt-6">
         This is a blog website that you can create your own posts.
-        You can sign in with your email and password.
+        You can sign in with your email and password or with your Google Account.
         
       </p>
         </div>
