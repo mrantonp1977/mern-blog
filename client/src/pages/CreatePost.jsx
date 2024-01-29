@@ -13,10 +13,10 @@ export default function CreatePost() {
             <option value='uncategorized'>Select a category</option>
             <option value='agriculture'>Agriculture</option>
             <option value='weather'>Weather</option>
-            <option value='pcbuilding'>Pc Building</option>
+            <option value='pc_building'>Pc Building</option>
             <option value='coding'>Coding</option>
             <option value='computers'>Computers</option>
-            <option value='webdesign'>Web Design</option>
+            <option value='web_design'>Web Design</option>
             <option value='education'>Education</option>
             <option value='sports'>Sports</option>
             <option value='other'>Other</option>
