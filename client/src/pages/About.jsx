@@ -1,24 +1,27 @@
 export default function About() {
   return (
-    <div className='min-h-screen flex items-center justify-center'>
-      <div className='max-w-2xl mx-auto p-3 text-center'>
+    <div className="min-h-screen flex items-center justify-center">
+      <div className="max-w-2xl mx-auto p-3 text-center">
         <div>
-          <h1 className='text-3xl font font-semibold text-center my-7'>
-            About Sahand' Blog
+          <h1 className="text-3xl font font-semibold text-center my-7">
+            About Papaioannou Antonis
           </h1>
-          <div className='text-md text-gray-500 flex flex-col gap-6'>
+          <div className="text-md text-gray-500 flex flex-col gap-6">
             <p>
-              Welcome to Sahand's Blog! This blog was created by Sahand Ghavidel
-              as a personal project to share his thoughts and ideas with the
-              world. Sahand is a passionate developer who loves to write about
-              technology, coding, and everything in between.
+              Welcome to Papaioannou Antonis Blog, a diverse and insightful
+              platform that caters to a wide range of interests. Antonis
+              Papaioannou, the driving force behind the blog, invites you to
+              embark on a journey through various categories that touch upon
+              crucial aspects of life. From agriculture to PC building, web
+              development to education, sports to weather, and more, this blog
+              is a melting pot of information, experiences, and expertise.
             </p>
 
             <p>
               On this blog, you'll find weekly articles and tutorials on topics
               such as web development, software engineering, and programming
-              languages. Sahand is always learning and exploring new
-              technologies, so be sure to check back often for new content!
+              languages and also articles about agriculture, sports computers
+              and other !
             </p>
 
             <p>
